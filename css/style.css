@@ -19,7 +19,7 @@ nav{
 .navbar-container{
     width: 100%;
     height: 80px;
-    background-color: rgb(114, 114, 238);
+    background-color: rgb(119, 162, 241);
     padding: 0 2rem;
 }
 .logo{
@@ -47,11 +47,73 @@ nav{
     transition: 0.5s
 }
 .navbar-items a:hover{
-    color: #111111;
+    color: #c2c2c2;
 }
 
 .default-btn{
     padding: 15px 20px;
-    background-color: #ccc;
+    background-color: #080808;
     border-radius: 6px;
+}
+.navbar-items .default-btn:hover {
+    background-color: #2b2a2a;
+    color: white;
+}
+.main-banner {
+    background-image: url("/img/pexels-veeterzy-39811.jpg");
+    /* filter:grayscale(80%); */
+    /* opacity: 90%; */
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+
+}
+.main-banner h1, .main-banner p{
+    color: rgb(233, 233, 233);
+    text-align: center;
+    opacity: 99%;
+    font-weight: bold;
+    text-shadow: #080808 3px 2px 3px;
+}
+.main-banner h1{
+    font-size: 54px;
+}
+.main-banner h1{
+    font-size: 32px;
+}
+
+/* Services */
+.services-container{
+    padding: 3rem 0;
+}
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.services-container li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.services-container p{
+    line-height: 20px;
+}
+/* Icones dos serviços Oferecidos */
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px
+}
+/* Icone Segurança */
+.fa-shield-alt{
+    color: rgb(131, 131, 131);
+}
+/* Icone Performace */
+.fa-rocket{
+    color: rgb(131, 131, 131);
+}
+/* Icone comentário */
+.fa-comments{
+    color: rgb(131, 131, 131);
 }
