@@ -153,6 +153,7 @@ nav{
     line-height: 40px;
     font-size: 16px;
 }
+/* Estilização do preço dos planos na sessão de preços */
 .plan .price{
     width: 120px;
     height: 120px;
@@ -165,12 +166,14 @@ nav{
     position: relative;
     font-size: 18px;
 }
+/* Estilo nome do plano na sessão de planos */
 .plan .plan-name{
     text-transform: uppercase;
     font-size: 20px;
     padding: 50px 0;
     font-weight: bold;
 }
+/* Estilo dos botões na sessão de planos */
 .plan .plan-btn{
     padding: 15px 20px;
     background-color: #7c7c7c;
@@ -206,6 +209,7 @@ nav{
     border: none;
     margin: 0 auto;
 }
+/* input texto de pesquisa */
 .search-container input[type="text"]{
     width: 400px;
     height: 40px;
@@ -214,10 +218,11 @@ nav{
     opacity: 95%;
     margin-bottom: 10px;
 }
-
+/* Textos inseridos nos inputs de seleção do plano */
 .search-container b{
     font-size: 18px;
 }
+/* Botão sessão de procura do domínio */
 .searc-btn{
     padding: 15px 20px;
     background-color: #7c7c7c;
@@ -225,6 +230,11 @@ nav{
     box-shadow: 0px 0px 12px -2px black;
     color: white;
     line-height: 10px;
-    font-size: 20px;
+    font-size: 15px;
     cursor: pointer;
+    padding: 15px 30px;
+    opacity: 0.8;
+}
+.searc-btn:hover{
+    opacity: 1;
 }
