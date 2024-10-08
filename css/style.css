@@ -238,3 +238,31 @@ nav{
 .searc-btn:hover{
     opacity: 1;
 }
+
+/* Contatos */
+.contact{
+    text-align: center;
+} 
+
+.contact p{
+    font-size: 25px;
+    position: relative;
+    margin-top: 24px;
+}
+.contact ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}  
+.contact li{
+    margin: 5%;
+    font-size: 30px;
+}
+
+/* Roda pé */
+.footer{
+    text-align: center;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+}
