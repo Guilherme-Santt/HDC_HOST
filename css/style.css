@@ -69,6 +69,7 @@ nav{
     padding: 10rem 0;
 
 }
+
 .main-banner h1, .main-banner p{
     color: rgb(233, 233, 233);
     text-align: center;
@@ -77,10 +78,7 @@ nav{
     text-shadow: #080808 3px 2px 3px;
 }
 .main-banner h1{
-    font-size: 54px;
-}
-.main-banner h1{
-    font-size: 32px;
+    font-size: 74px;
 }
 
 /* Services */
