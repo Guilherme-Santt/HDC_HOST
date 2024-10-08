@@ -54,6 +54,7 @@ nav{
     padding: 15px 20px;
     background-color: #080808;
     border-radius: 6px;
+    box-shadow: 0px 0px 12px -2px black;
 }
 .navbar-items .default-btn:hover {
     background-color: #2b2a2a;
@@ -116,4 +117,72 @@ nav{
 /* Icone comentário */
 .fa-comments{
     color: rgb(131, 131, 131);
+}
+
+/* prices and plans */
+
+/* Sessão and plans */
+.precing-container{
+    text-align: center;
+}
+/* Título and plans */
+.precing-container h2{
+    font-size: 36px;
+}
+/* Parágrafo and plans */
+.precing-container p{
+    font-size: 24px;
+}
+/* Divisão de preços and plans */
+.plans-container{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 50px auto 0;   
+}
+
+.plan{
+    flex: 1;
+    max-width: 275px;
+    margin: 0 10px;
+}
+
+/* Listas and plans */
+.plan li{
+    list-style: none;
+    background-color: #e4e4e4;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.plan .price{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: rgb(119, 162, 241);
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    position: relative;
+    font-size: 18px;
+}
+.plan .plan-name{
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 50px 0;
+    font-weight: bold;
+}
+.plan .plan-btn{
+    padding: 15px 20px;
+    background-color: #7c7c7c;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px -2px black;
+    color: white;
+    line-height: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.plan .recommended{
+    background-color: red;
 }
