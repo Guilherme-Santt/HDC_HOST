@@ -184,3 +184,47 @@ nav{
 .plan .recommended{
     background-color: red;
 }
+
+/* Search do main */
+.search-container{
+    background-color: rgb(119, 162, 241);
+    text-align: center;
+    padding: 5rem 0;
+    margin-top: 30px;
+}
+.search-container h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.search-container p{
+    font-size: 20px;
+    margin-bottom: 25px;
+    color: rgb(231, 202, 202);
+}
+.search-container input {
+    border: none;
+    margin: 0 auto;
+}
+.search-container input[type="text"]{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    opacity: 95%;
+    margin-bottom: 10px;
+}
+
+.search-container b{
+    font-size: 18px;
+}
+.searc-btn{
+    padding: 15px 20px;
+    background-color: #7c7c7c;
+    border-radius: 6px;
+    box-shadow: 0px 0px 12px -2px black;
+    color: white;
+    line-height: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
